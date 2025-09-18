@@ -1,6 +1,7 @@
-<p align = "center" draggable=”false” ><img src="https://github.com/AI-Maker-Space/LLM-Dev-101/assets/37101144/d1343317-fa2f-41e1-8af1-1dbb18399719" 
-     width="200px"
-     height="auto"/>
+<p align="center" draggable="false">
+    <img src="https://github.com/AI-Maker-Space/LLM-Dev-101/assets/37101144/d1343317-fa2f-41e1-8af1-1dbb18399719" 
+         width="200px" 
+         height="auto"/>
 </p>
 
 <h1 align="center" id="heading">Session 1: Introduction and Vibe Check</h1>
@@ -37,15 +38,26 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
+    - Aspect Tested: Ability to accuratley simplify and explain complex concepts
+    - Results: While the explaination was accurate, it did not simplify it for a complete beginner. A more specific prompt adding an age or grade level of the beginner seems to work better. I added a second prompt to explain it to me like I was a ten year old and the output was much better.
+    The markup formatting was not correctly displayed in some instances in the terminal.
+    - Output: ![Q1](images/Q1.png)
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: Understanding and summarization
+    - Results: The system took a long run on paragraph and successfully summarized it in two sentenances. It was accurate and had very understandable summary.
+    - Output: ![Q2](images/Q2.png)
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: Creativity, imagination, and emotional understanding.
+    - Results: The output was about 128 words. It created a narrartive around the robot and that in a forgotten scrapyard it longed for purpose. Then it met a cat. It was an imaginitive story. It showed emotional understanding by describing the two characters emotions throughout. The core storyline was connection. I feel the story could have been more creative and imaginative. The prompt of 100-150 words could have limited the models creativity. I had the model self critique its story in a follow on prompt. It explained it's reasoning and a conclusion of why it fit the prompt, however it did not provide improvement recommendations directly. It broke down each section with more descriptions.
+    - Output: ![Q3](images/Q3.jpg)
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: Mathematical reasoning and logic
+    - Results: The output was mathmatically correct. The system shared it's reasoning on how it would solve the problem and the mathmatical work as it worked through the problem.
+    - Output: ![Q4](images/Q4.png)
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: Style, tone and grammer
+    - Results: The system correctly changed the style, tone and grammer from an extremely informal paragraph on the subject of a party invitation to one that was very formal. It came across a very formal and possibly a bit haughty.
+    - Output: ![Q5](images/Q5.png)
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -58,9 +70,12 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 #### ❓Question #1:
 
 What are some limitations of vibe checking as an evaluation tool?
-##### ✅ Answer:
+##### ✅ Answer: I can think of three major limitations of vibe checking as an evaluation tool:
+    1. Subjectivity - Both the prompts and the output are subjective based upon the human creating them. This leverages an individuals assement of what a good prompt and output/or could or should be. It may not be specific or factual. It introduces human feelings and emotions. This could lead to the next two limitations. 
+    2. Bias - If the evaluation is not objective due to individual subjectivity then that could lead to bias. Both conscious and unconscious bias. Humans tend to find responses similar to their own as postive, such as confirmation bias. Our own thoughts, perspectives, and world views could reenforce those bias in our evaluation opinions.
+    3. Inconsistency - Each indiviuals subjetive opinion could vary. This would yield inconsistent evaluation results. Even a single individuals opinion may vary day to day based on a variety of factors like sleep, fatigue, emotional state, etc.
 
-### 🚧 Advanced Build (OPTIONAL):
+### 🚧 Advanced Build (OPTIONAL): NA - Activity 1 completed above.
 
 Please make adjustments to your application that you believe will improve the vibe check you completed above, then deploy the changes to your Vercel domain [(see these instructions from your Challenge project)](https://github.com/AI-Maker-Space/The-AI-Engineer-Challenge/blob/main/README.md) and redo the above vibe check.
 
